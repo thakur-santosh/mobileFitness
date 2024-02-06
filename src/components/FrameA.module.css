@@ -1,0 +1,188 @@
+.smartWatchChild {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.ionarrowBackOutlineIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.containerRectangleIcon,
+.smartWatch {
+  height: 60px;
+  width: 60px;
+  border-radius: var(--br-11xl);
+}
+.smartWatch {
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.containerRectangleIcon {
+  position: relative;
+  object-fit: cover;
+  min-height: 60px;
+}
+.frameB,
+.frameConnectedDevices {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameConnectedDevices {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameB {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-mini);
+  box-sizing: border-box;
+}
+.your {
+  margin-block-start: 0;
+  margin-block-end: 1.93px;
+}
+.fitnessTracker {
+  margin: 0;
+}
+.yourFitnessTrackerContainer {
+  margin: 0;
+  height: 74px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.fitnessTrackerLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.framesConnectionChild {
+  height: 60px;
+  width: 205px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-orangered-100);
+  display: none;
+}
+.connectedDevices {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-family: var(--font-metropolis);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.framesConnection {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-6xs);
+  background-color: var(--color-orangered-100);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.framesConnection:hover {
+  background-color: var(--color-orangered-200);
+}
+.framesConnectionItem {
+  height: 60px;
+  width: 205px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  display: none;
+}
+.statistics {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-metropolis);
+  color: var(--color-gray-400);
+  text-align: center;
+  z-index: 1;
+}
+.framesConnection1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-41xl) var(--padding-xl)
+    var(--padding-39xl);
+  background-color: var(--color-whitesmoke);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.framesConnection1:hover {
+  background-color: var(--color-gainsboro);
+}
+.connectedDevicesFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.connectedDevicesStatsFrame,
+.frameA {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connectedDevicesStatsFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.frameA {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-height: 270px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-metropolis);
+}
+@media screen and (max-width: 450px) {
+  .connectedDevicesFrame {
+    flex-wrap: wrap;
+  }
+}

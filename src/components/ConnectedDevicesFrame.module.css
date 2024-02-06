@@ -1,0 +1,18 @@
+.water {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 1;
+}
+.waterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-coral);
+  font-family: var(--font-metropolis);
+}

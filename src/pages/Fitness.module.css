@@ -1,0 +1,22 @@
+.fitness,
+.frameC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+}
+.frameC {
+  align-self: stretch;
+  padding: 0 var(--padding-8xs);
+  max-width: 100%;
+}
+.fitness {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: 30px 0 0;
+  letter-spacing: normal;
+}
